@@ -11,5 +11,10 @@
   "bugs": {
     "url": "https://github.com/kucharskimaciej/dm-es6-app-seed.git/issues"
   },
-  "homepage": "https://github.com/kucharskimaciej/dm-es6-app-seed.git"
+  "homepage": "https://github.com/kucharskimaciej/dm-es6-app-seed.git",
+  "dependencies": {
+    "babel-core": "^4.6.6",
+    "babel-loader": "^4.0.0",
+    "webpack": "^1.7.2"
+  }
 }
