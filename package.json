@@ -1,6 +1,6 @@
 {
   "name": "dm-es6-app-seed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app/index.html",
   "repository": {
     "type": "git",

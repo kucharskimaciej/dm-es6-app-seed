@@ -1,13 +1,12 @@
 module.exports = {
-    entry: './app/main.es6.js',
+    entry: './app/scripts/main.es6.js',
     output: {
-        filename: './app/main.js'
+        filename: './app/dist/main.js'
     },
     module: {
         loaders: [
-            { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', query: {
-                modules: 'amd'
-            }}
+            { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
         ]
-    }
+    },
+    devtool: "#cheap-module-source-map"
 };
