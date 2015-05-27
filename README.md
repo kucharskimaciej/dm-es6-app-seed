@@ -1,5 +1,5 @@
 # dm-es6-app-seed
-Application seed for the Devmeetings' ES6 app
+Application seed for the DevMeetings' ES6 app
 
 ## Installation
 
